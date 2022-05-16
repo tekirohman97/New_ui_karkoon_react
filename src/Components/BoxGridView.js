@@ -12,10 +12,12 @@ import {
 const GridViewBox = () => {
   return (
     <View style={styles.container}>
+      <TouchableOpacity>
       <Image
         source={require('../Image/jne.jpeg')}
         style={{width: '100%', resizeMode: 'cover', height: 210,borderTopLeftRadius: 4, borderTopRightRadius:4}}
       />
+      </TouchableOpacity>
       <Text style={styles.textDeskripsi}>
         Guasha tuh emang ternyata berguna banget buat muka
       </Text>
