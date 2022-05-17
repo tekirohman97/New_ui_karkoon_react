@@ -148,10 +148,12 @@ class InputKomen extends React.Component {
     state = {  } 
     render() { 
         return (
-              <View style={{flexDirection:'row', height:56, backgroundColor:'white'}}>
-                  <Text>
-                      dhwadw
-                  </Text>
+              <View style={{flexDirection:'row',position: 'absolute',width:'100%', bottom:0, left:0,  height:56, backgroundColor:'white', justifyContent:'flex-start', alignItems:'center', paddingHorizontal: 16}}>
+                  <Image source={require('../Image/jne.jpeg')} style={{height:24, width: 24, borderRadius: 50}} /> 
+                  <TextInput placeholder='Tulis balasan...' style={{flex:1}}/>
+                  <TouchableOpacity style={{paddingRight:5}}>
+                  <Image source={require('../Image/at.png')} style={{height:16, width: 16}} />   
+                  </TouchableOpacity>         
               </View>  
         );
     }
@@ -263,7 +265,7 @@ input: {
     paddingHorizontal: 16,
   },
   boxContent: {
-    height: '100%',
+    height: '92%' ,
   },
   action: {
     flexDirection: 'row',
