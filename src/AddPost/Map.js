@@ -17,21 +17,13 @@ class Search extends React.Component {
   render() {
     return (
       <View style={styles.boxButton}>
-        <TouchableOpacity style={styles.buttonSearch}>
+        <View style={styles.buttonSearch}>
           <Image
             source={require('../Image/search.png')}
             style={{width: 16, height: 16}}
           />
-          <Text
-            style={{
-              fontSize: 12,
-              fontWeight: '400',
-              color: '#C2C2C2',
-              marginLeft: 12,
-            }}>
-            cari lokasi
-          </Text>
-        </TouchableOpacity>
+          <TextInput placeholder='cari “kulit berminyak' style={{fontSize:12, fontWeight:'400', color:'black', paddingLeft:10}} placeholderTextColor='#C2C2C2'/>
+        </View>
       </View>
     );
   }
