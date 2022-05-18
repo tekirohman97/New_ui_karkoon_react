@@ -61,7 +61,7 @@ class Content extends React.Component {
                 </Text>
                 <Image source={require('../Image/fire.png')} style={{width:10, height:10, resizeMode:'contain', marginLeft:5}}/>
             </View>
-            <View style={{flexDirection:'row', width:'50%',paddingTop:16}}>
+            <View style={{flexDirection:'row', width:'50%',paddingTop:16}}> 
                 <Text>
                 Skincare acne prone
                 </Text>
